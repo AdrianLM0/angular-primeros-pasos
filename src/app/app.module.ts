@@ -8,6 +8,8 @@ import { AppComponent } from './app.component';
 
 import { counterModule } from './counter/counter.module';
 import { heroesModule } from './heroes/heroes.module';
+import { mainPageComponent } from './dbz/pages/main-page.components';
+import { DbzModule } from './dbz/dbz.module';
 
 
 @NgModule({
@@ -18,7 +20,8 @@ import { heroesModule } from './heroes/heroes.module';
     BrowserModule,
     AppRoutingModule,
     counterModule,
-    heroesModule
+    heroesModule,
+    DbzModule
   ],
   providers: [],
   bootstrap: [AppComponent]
